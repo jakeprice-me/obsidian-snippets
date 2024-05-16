@@ -1,0 +1,63 @@
+body {
+--h1-color: #1A237E;
+--h2-color: #283593;
+--h3-color: #303F9F;
+--h4-color: #3949AB;
+--h5-color: #3F51B5;
+--h6-color: #5C6BC0;
+}
+
+.HyperMD-header.HyperMD-header-2.cm-line {
+    margin-bottom: 20px !important; /* Increase specificity and use !important to ensure it overrides */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E8EAF6;
+}
+
+.HyperMD-header:before {
+  font-family: sans-serif;
+  display: inline-block;
+  color: #9FA8DA;
+  text-align: center;
+}
+
+.collapse-indicator {
+    margin-right: 1.8rem;
+}
+
+.HyperMD-header:before {
+  vertical-align: 0.19rem;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  opacity: 30%;
+}
+
+.HyperMD-header-1:before {
+  content: "H1";
+  color: var(--h1-color);
+}
+
+.HyperMD-header-2:before {
+  content: "H2";
+  color: var(--h2-color);
+}
+
+.HyperMD-header-3:before {
+  content: "H3";
+  color: var(--h3-color);
+}
+
+.HyperMD-header-4:before {
+  content: "H4";
+  color: var(--h4-color);
+}
+
+.HyperMD-header-5:before {
+  content: "H5";
+  color: var(--h5-color);
+}
+
+.HyperMD-header-6:before {
+  content: "H6";
+  color: var(--h6-color);
+}
+

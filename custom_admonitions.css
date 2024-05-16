@@ -1,0 +1,7 @@
+body {
+    --callout-important: var(--color-red-rgb);
+}
+
+.callout {
+    border-left: 4px solid rgb(var(--callout-color));
+}
