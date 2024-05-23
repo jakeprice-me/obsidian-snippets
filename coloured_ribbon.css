@@ -1,0 +1,29 @@
+/*
+author: sailKite
+source: https://discord.com/channels/686053708261228577/702656734631821413/1147201536171196416
+---
+Tweaked a bit by me
+*/
+
+.mod-left {
+    border-right: none;
+}
+
+.workspace-ribbon.side-dock-ribbon.mod-left::before {
+  border: none;
+  border-bottom: 1px solid var(--interactive-accent-hover);
+}
+
+.workspace-ribbon.side-dock-ribbon.mod-left {
+  --titlebar-background-focused: var(--interactive-accent);
+  background-color: var(--titlebar-background-focused);
+}
+.workspace-ribbon.side-dock-ribbon.mod-left::before,
+.workspace-ribbon.side-dock-ribbon.mod-left > .sidebar-toggle-button {
+  --titlebar-background: var(--titlebar-background-focused);
+}
+
+.workspace-ribbon.side-dock-ribbon.mod-left .clickable-icon {
+  color: white;
+}
+
