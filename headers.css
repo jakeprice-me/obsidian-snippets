@@ -8,7 +8,6 @@ body {
 }
 
 .HyperMD-header.HyperMD-header-2.cm-line {
-    margin-bottom: 20px !important; /* Increase specificity and use !important to ensure it overrides */
     padding-bottom: 20px;
     border-bottom: 1px solid #E8EAF6;
 }
